@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.arianroid.algorithmproject.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="#1"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:text="23" />
+
+        <EditText
+            android:id="@+id/etTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="#2"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:text="14" />
+
+        <EditText
+            android:id="@+id/etThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="#3"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:text="4" />
+
+        <EditText
+
+            android:id="@+id/etFour"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="#4"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:text="99" />
+
+        <EditText
+            android:id="@+id/etFive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:hint="#5"
+            android:inputType="number"
+
+            android:text="45"
+            android:maxLength="2"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etSix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="21"
+            android:hint="#6"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etSeven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="14"
+            android:layout_weight="1"
+            android:hint="#7"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QuickSort" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+
+    </LinearLayout>
+    ـ
+
+    <TextView
+        android:id="@+id/txtShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:hint="showing content here !"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
